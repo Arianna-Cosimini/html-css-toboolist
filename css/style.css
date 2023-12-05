@@ -4,18 +4,15 @@
     padding: 0;
 }
 
-main{
-    width: 80%;
-    margin: auto;
-    background-color: white;
-    margin-top: 50px;
-    text-align: start;
-    padding-left: 50px;
-    padding-top: 10px;
-    border-bottom: rgba(127, 255, 212, 0.34) 2px solid;
+body{
+    background-color: rgba(127, 255, 212, 0.34);
 }
+
+/*navbar*/
 nav{
     background-color: white;
+    padding-left: 40px;
+    height: 80px;
 }
 #logo{
     width: 50px;
@@ -23,32 +20,41 @@ nav{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    vertical-align: text-bottom;
     
 }
 h1{
     display: inline-block;
-    /*modificare*/
+    vertical-align: middle;
+    line-height: 100%;
+    margin-bottom: 60px;
+    font-size:xx-large;
 }
-    /*lascio per dopo
-    vertical-align:inherit;*/
-body{
-    background-color: rgba(127, 255, 212, 0.34);
+main{
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: rgba(127, 255, 212, 0.34) 2px solid;
+    border-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
     border-bottom: lightblue 1px solid;
     padding-bottom: 10px;
-    /*width: 80%;
-    margin: auto;
-    background-color: white;
-    margin-top: 50px;
-    text-align: start;
-    padding-left: 50px;
-    padding-top: 10px;
-    border-bottom: rgba(127, 255, 212, 0.34) 2px solid;
-}*/
 }
-/*button*/
+
+
+.centre{
+    padding-bottom: 40px;
+}
 #add-task{
     color:white;
     background-color: cornflowerblue;
@@ -73,34 +79,79 @@ h2{
 h3{
     display: inline-block;
     margin-top: 20px;
+    vertical-align: baseline;
+    font-weight: normal;
 }
 
 .check{
     display: inline-block;
+    font-size:x-small;
+    text-align: center;
     color: aqua ;
     border: aqua 1px solid;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
+    width: 20px;
+    height: 20px;
 }
 
 .form{
     display:inline-block;
+    font-size: x-small;
+    text-align: center;
     color: red;
     border: red 1px solid;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    text-align: center;
+    width: 20px;
+    height: 20px;
+   
 }
 
 
 .editorial{
+    padding: 5px;
     color:white;
     background-color: cornflowerblue;
-    padding: 5px;
     border-color:cornflowerblue ;
+    border-radius: 10px;
+}
+
+.q1-goals{
+    padding: 5px;
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-radius: 10px;
+}
+
+.recruiting{
+    padding: 5px;
+    color: white;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    border-radius: 10px;
+}
+
+.mobile{
+    padding: 5px;
+    color: white;
+    background-color: rgb(254, 129, 39);
+    border-color: rgb(254, 129, 39);
+    border-radius: 10px;
+}
+
+.website{
+    padding: 5px;
+    color: white;
+    background-color: hotpink;
+    border-color: hotpink;
+    border-radius: 10px;
+}
+
+.sales{
+    padding: 5px;
+    color: white;
+    background-color:chartreuse;
+    border-color: chartreuse;
     border-radius: 10px;
 }
     
