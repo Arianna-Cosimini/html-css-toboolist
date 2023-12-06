@@ -72,7 +72,13 @@ main{
 }
 
 /*parte centrale*/
+
+.triangle{
+    vertical-align:middle;
+    margin-top: 2px;
+}
 h2{
+    display: inline-block;
     padding-top: 20px;
 }
 
