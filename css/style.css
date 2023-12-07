@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: rgba(127, 255, 212, 0.34);
-    font-family: sans-serif;
+       font-family: sans-serif;
+    background-color: #F6F8F9;
 }
 
 /*navbar*/
@@ -16,9 +16,6 @@ nav{
     margin-bottom: 36px;
 
     background-color: white;
-    /* background-color: white;
-    padding-left: 40px;
-    height: 80px; */
 }
 #logo{
     vertical-align:middle;
@@ -32,163 +29,101 @@ h1{
 }
 main{
     width: 70%;
-
     margin-left: auto;
     margin-right: auto;
-
-
     background-color: white;
-    /* width: 60%;
-    height: 70%;
-    margin: auto;
-    background-color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: start;
-    padding-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: rgba(127, 255, 212, 0.34) 2px solid;
-    border-width: 100%; */
 }
 
-.header{
+#buttons {
+
     padding: 22px 48px;
-
     border-bottom: 2px solid #f5f7f8;
-    /* border-bottom: lightblue 1px solid;
-    padding-bottom: 10px; */
 }
 
+button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 3px solid #ced3d7;
+    background-color: transparent;
+    color: #ced3d7;
+    font-weight: bold;
+}
+
+.btn-primary {
+    border-color: #47acf0;
+    background-color: #47acf0;
+    color: white;
+}
 
 .centre{
-    padding-bottom: 40px;
-}
-#add-task{
-    color:white;
-    background-color: cornflowerblue;
-    padding: 5px;
-    border-color:cornflowerblue ;
-    border-radius: 5px;
+    padding:36px 48px;
 }
 
-#add-section{
-    color: grey;
-    background-color: white;
-    padding: 5px;
-    border-color: grey;
-    border-radius: 5px;
+.container {
+    margin-bottom: 36px;
 }
 
-/*parte centrale*/
-
-.triangle{
-    vertical-align:middle;
-    margin-top: 2px;
-}
 h2{
-    display: inline-block;
-    padding-top: 20px;
-}
+    color: #454952;
+    font-size: 26px;}
 
-/* h3{
-    display: inline-block;
-    margin-top: 20px;
-    vertical-align: baseline;
-    font-weight: normal;
-} */
 ul{
     padding: 0;
-    list-style-type: none;
-    
+    list-style-type: none   
 }
 
 li{
     padding: 14px;
     font-size: 22px;
-
 }
 
-.check{
+.icon {
     display: inline-block;
-    font-size:x-small;
-    text-align: center;
-    color: aqua ;
-    border: aqua 1px solid;
+    margin-right: 10px;
+    height: 26px;
+    width: 26px;
+    border: black 1px solid;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    font-size: 0.7em;
+    text-align: center;
 }
 
-.form{
-    display:inline-block;
-    font-size: x-small;
-    text-align: center;
-    color: red;
-    border: red 1px solid;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-   
+.check {
+    color: #61BEA7;
+    border-color: #61BEA7;
+}
+
+.form {
+    color: #E7372F;
+    border-color: #E7372F;
 }
 
 .category{
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 12px;
-    font-size: 12px;
-}
-
-
-/* .editorial{
-    padding: 5px;
-    color:white;
-    background-color: cornflowerblue;
-    border-color:cornflowerblue ;
-    border-radius: 10px;
-}
-
-.q1-goals{
-    padding: 5px;
+    padding: 10px 16px;
+    border-radius: 16px;    
+    background-color: black;
     color: white;
-    background-color: blueviolet;
-    border-color: blueviolet;
-    border-radius: 10px;
+    font-size: 0.6em;
 }
 
-.recruiting{
-    padding: 5px;
-    color: white;
-    background-color: cadetblue;
-    border-color: cadetblue;
-    border-radius: 10px;
+.editorial {
+    background-color: #45aae9;
+}
+.goals {
+    background-color: #9b72e3;
+}
+.recruiting {
+    background-color: #64bfa8;
+}
+.mobile {
+    background-color: #f19d33;
+}
+.website {
+    background-color: #d763a0;
+}
+.sales {
+    background-color: #afc826;
 }
 
-.mobile{
-    padding: 5px;
-    color: white;
-    background-color: rgb(254, 129, 39);
-    border-color: rgb(254, 129, 39);
-    border-radius: 10px;
-}
-
-.website{
-    padding: 5px;
-    color: white;
-    background-color: hotpink;
-    border-color: hotpink;
-    border-radius: 10px;
-}
-
-.sales{
-    padding: 5px;
-    color: white;
-    background-color:chartreuse;
-    border-color: chartreuse;
-    border-radius: 10px;
-} */
-    
 
 
-
-    
